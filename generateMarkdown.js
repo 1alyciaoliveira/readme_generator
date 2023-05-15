@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//showing the badge for the license with the respective link.
 function renderLicenseBadge(license) {
 
   if(license  === "MIT") {
@@ -13,36 +12,20 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {
-
-//   if(license  === "MIT") {
-//     return `[License: MIT](https://opensource.org/licenses/MIT)`
-//   } else if (license === "Apache_2.0") {
-//     return `[License: Apache 2.0](https://opensource.org/licenses/Apache-2.0)`
-//   } else if (license === "GNU GPL v3") {
-//     return `[License: GPL v3](https://www.gnu.org/licenses/gpl-3.0)`
-//   } else {
-//     return "";
-//   }
-
-//}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+//showing the license information, if applicable.
 function renderLicenseSection(license) {
   if(license !== "N/A") {
     return `
-    ## License
-    Licensed by ${license} license.
-    `;
+## License
+Licensed by ${license} license.`;
   } else {
-    return "";
+    return `
+## License
+None.`;
   }
 }
 
-// TODO: Create a function to generate markdown for README
+//template for the README file.
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -74,10 +57,11 @@ ${data.test}
 
 ${renderLicenseSection(data.license)}
 
-# Questions?
+## Questions?
 Please, feel free to send me an email or contact me on GitHub.
 
 GitHub: [${data.github}](https://github.com/${data.github})
+
 Email: ${data.email}
 `;
 }

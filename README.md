@@ -1,6 +1,6 @@
-# Readme generator
+# README generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   
 ## Table of Contents
 * [Description](#description)
@@ -12,27 +12,27 @@
 * [Contact](#contact)
 
 ## Description
-kjaa'podmflnsvnsacm;lscm,;lsma vnf'lknf
+This project helps you to create quickly a professional README for your new project.
 
 ## Installation
-kasdnfl;kmdf;lmasf
+Clone the code and install nodejs.
 
 ## Usage
-kahdf;asjd;fasmdfm
+Once you have the code in your computer, use the terminal to move to your project directory. Type "node index.js" to run it.  Then, answer the questions about your project, and it's done! You'll have a README file.
 
 ## Credits
-ahsdfi;jsk;d'fasb
+N/A
 
 ## Test Instructions
-hjjhjklk;'mvccgvhbjnklml;,;'
+N/A
 
 
-    ## License
-    Licensed by MIT license.
-    
+## License
+Licensed by GNU GPL v3 license.
 
-# Questions?
+## Questions?
 Please, feel free to send me an email or contact me on GitHub.
 
 GitHub: [1alyciaoliveira](https://github.com/1alyciaoliveira)
-Email: ajsdhfoa;ljskdmflas,d
+
+Email: 1alycia.oliveira@gmail.com

@@ -20,28 +20,28 @@ const questions = [
     {
         type: 'input',
         name: 'instalation',
-        message: 'Tell us the instructions to install your project.',
+        message: 'Tell us the instructions to install your project. <type N/A if not applicable>',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Tell us how to use it.',
+        message: 'How should we use your project?',
     },
     {
         type: 'input',
         name: 'contribution',
-        message: 'What are the contibution guidelines?',
+        message: 'Did you have any collaborators? <type N/A if not applicable>',
     },
     {
         type: 'input',
         name: 'test',
-        message: 'Please, provide some instructions so the others can test it.',
+        message: 'Please, provide some instructions so the others can test it. <type N/A if not applicable>',
     },
     {
         type: 'list',
         name: 'license',
         message: 'What license did you use?',
-        choices: ['A', 'B', 'C', 'D'],
+        choices: ['MIT', 'GNU GPL v3', 'Apache 2.0', 'N/A'],
     },
     {
         type: 'input',
@@ -56,8 +56,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(title, data) {
-    const fileName = `${title.toLowerCase().split(' ').join('')}_README.md`;
+function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log('Done')
@@ -67,9 +66,8 @@ function writeToFile(title, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((responses) => {
-        const title = responses.title.toLowerCase().split(' ').join('');
         const readmeData = generateMarkdown({...responses});
-        writeToFile(`${title}_README.md`, readmeData);
+        writeToFile("README.md", readmeData);
     });
 }
 

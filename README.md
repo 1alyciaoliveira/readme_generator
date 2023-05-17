@@ -20,7 +20,7 @@ Clone the code and install nodejs.
 ## Usage
 Once you have the code in your computer, use the terminal to move to your project directory. Type "node index.js" to run it.  Then, answer the questions about your project, and it's done! You'll have a README file.
 
-You can check a demo [![here](https://drive.google.com/file/d/1QfvL4x_D28uk15d58XDS5stRO_iQBV-k/view)].
+You can check a demo here: https://drive.google.com/file/d/1QfvL4x_D28uk15d58XDS5stRO_iQBV-k/view
 
 ## Credits
 N/A

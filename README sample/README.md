@@ -12,13 +12,13 @@
 * [Contact](#contact)
 
 ## Description
-This project helps you to create quickly a professional README for your new project.
+This project helps you to create quickly a professional README for your projects.
 
 ## Installation
-Clone the code and install nodejs.
+Clone the code and install nodejs
 
 ## Usage
-Once you have the code in your computer, use the terminal to move to your project directory. Type "node index.js" to run it.  Then, answer the questions about your project, and it's done! You'll have a README file.
+Once you have the code in your computer, use the terminal to move to your project directory. Type "node index.js" to run it. Then, answer the questions about your project and it's done! You'll have a README file.
 
 ## Credits
 N/A
